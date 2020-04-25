@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/styl.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="res/assocom.jpeg" width="50" height="50" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="Homme.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Seconnecter.html">Se connecter</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="Message.html">Message</a>
+            </li> 
+                  
+          </ul>
+        </div>
+      </nav>
+    <center>
+        <div class="col-md-4 area">
+            <button class="btn btn-light" onclick="makebold()" >Bold</button>
+            <button class="btn btn-light" onclick="makeunderline()">Underline</button>
+            <button class="btn btn-light" onclick="makeitalic()">Italic</button>
+            <select class="form-control" onchange="fontsize()" name="" id="size">
+                <option value="20px">20px</option>
+                <option value="40px">40px</option>
+                <option value="60px">60px</option>
+            </select>
+            <select class="form-control" onchange="policesize()" name="" id="police">
+                <option value="Arial">Arial</option>
+                <option value="Candreva">Candreva</option>
+            </select>
+        </div>
+        <div class="form-group col-md-4">
+         
+            <label for="exampleFormControlTextarea1" > <h1>Message</h1></label>
+            <textarea class="form-control" id="para" rows="3"></textarea>
+          </div>
+    </center>  
+    <nav aria-label="Page navigation example">
+      <ul class="pagination">
+        
+        <li class="page-item"><a class="page-link" href="Homme.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="Seconnecter.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="Message.html">3</a></li>
+        
+      </ul>
+    </nav>
+</body>
+<script src="js/main.js"></script>
+</html>

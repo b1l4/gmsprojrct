@@ -1,0 +1,51 @@
+.img1{
+    width:100%;
+    }
+    .text {
+        text-align: center;
+        display: block;
+        color: white;
+    }
+    body{
+        background: #1c92d2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+      }
+      a:hover{
+         color: red;
+     }
+    .logo{
+     height: 50px;
+     width: 50px;   
+    }
+    
+    ul{   
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    .l{
+        display:flex;
+        flex-direction: row;
+    }
+    
+        
+    li a{
+        color: white;
+        text-decoration: none;
+    }
+    .d-block{
+        width: 100%;
+    }
+    .text{
+        color:black;
+    }
+    .card-deck{
+        margin-top: 30px;
+    }
+    .info{
+        margin-top: 50px;
+    }
